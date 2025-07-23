@@ -1,25 +1,11 @@
-# 🚀 Zunda Technology Park - Enterprise Software Foundations Presentation
+Good Evening Aaron!
 
-Welcome to the **Zunda Technology Park** presentation on **Foundations of Enterprise Software Development**. This is an interactive slide deck built using [Reveal.js](https://revealjs.com), covering everything from software architecture, SDLC, version control with Git, and contributing to open source!
+My Name is Greg, A second year software engineering student at NUST who attended the first session of the Dec junction.
 
-## 🎯 Overview
+The greg.html file is just a short presentation of a few questions i Wanted to ask you about the 
+SDLC with regards to some projects I'm
+working on, I hope it finds you well.
 
-This presentation is intended for aspiring developers and tech enthusiasts looking to understand:
+To see mor eof my work, I document it all at:https://www.instagram.com/gregis.khan?igsh=MWtvMWhsZDl5cXVmaQ==
 
-- What is enterprise software?
-- Characteristics of large-scale applications
-- Software development life cycle (SDLC)
-- Software architecture & design patterns
-- Version control with Git & GitHub
-- GitHub CLI
-- Getting started with open source
-
-## 🛠 Built With
-
-- [Reveal.js](https://revealjs.com/) — HTML-based presentation framework
-- HTML/CSS
-- Monokai theme for syntax highlighting
-
-## What to do Next?
-- Make a Contribution to the slides 
-
+Greg
