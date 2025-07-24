@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Zunda Technology Park</title>
+		<title>Cchub Assignment</title>
 
 		<meta name="description" content="Foundations of Enterprise Software Development">
 		<meta name="author" content="Aaron Muti">
@@ -18,83 +18,142 @@
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
 
-		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		
+		<style>
+			.reveal .slides section {
+				max-height: 90vh;
+				overflow-y: auto;
+				padding: 20px;
+			}
+			
+			/* Custom scrollbar styling */
+			.reveal .slides section::-webkit-scrollbar {
+				width: 8px;
+			}
+			
+			.reveal .slides section::-webkit-scrollbar-track {
+				background: rgba(255, 255, 255, 0.1);
+				border-radius: 4px;
+			}
+			
+			.reveal .slides section::-webkit-scrollbar-thumb {
+				background: rgba(255, 255, 255, 0.3);
+				border-radius: 4px;
+			}
+			
+			.reveal .slides section::-webkit-scrollbar-thumb:hover {
+				background: rgba(255, 255, 255, 0.5);
+			}
+			
+			/* Ensure content doesn't get cut off */
+			.reveal .slides section h1,
+			.reveal .slides section h2,
+			.reveal .slides section h3,
+			.reveal .slides section h4,
+			.reveal .slides section h5,
+			.reveal .slides section h6 {
+				margin-top: 0;
+			}
+		</style>
 	</head>
 
 	<body>
 
 		<div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h3> Foundations of Enterprise Software Development</h3>
+					<h3> Foundations of Enterprise Software Development:<h4>Assignment 1</h4></h3>
 					<p>
-						<small>Presented by <a href="http://aaronmuti.com"> Aaron Muti</a></small>
+						<small>Presented by Tayo</a></small>
 					</p>
 				</section>
 				<section>
 					<h6>Who am i?</h6>
-						<a href="https://aaronmuti.com">
-						<img src="https://aaronmuti.com/images/bg_1.png" alt="reveal.js logo" style="height: 400px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
-					</a>
+					<img src="/Mypic.jpg" height="800">
 					<p class="fragment">A Pythonista with expertise in data and quality control.</p>
 				</section>
 				<section><h2>What do i really DO &#x1F914;?<html lang="en"></h2>	
-					<p> I currently work as a QA Engineer at Capricorn Group     </p> 
+					<p> I am currently a NUST 2nd year student    </p> 
 					<p>And</p>
-					<p class="fragment">I'm passionate about knowledge sharing and mentor aspiring developers at Zunda Technology Park 🚀 </p>
+					<p class="fragment">I'm passionate about all things tech. </p>
 					
 			</section>
 			<section>
-				<h2>Im0 lang</h2>
+				<h2>I'm Your Language Guide!</h2>
 				<p style="font-size: 100px;">🚀 👨🏿‍💻  🕵🏾‍♂️ 🐍</p>
 				</section>
 
-				<!-- Example of nested vertical slides -->
-					<section>
-						<h2>What is Enterprise Software?</h2>
-						<p>Software designed to meet the needs of an organization rather than individual users.</p>
-						<p>Focus on business processes, data management, and operational efficiency.</p>
+				<section>
+					<h2>Looking Back: What I Learned</h2>
+					<p>From our previous session, I gained valuable insights into:</p>
+					<ul>
+						<li class="fragment">The fundamental differences between enterprise and consumer software</li>
+						<li class="fragment">How business needs guide design choices in enterprise settings</li>
+						<li class="fragment">The big importance of reliability, scalability, and security for organizations</li>
+						<li class="fragment">The role of rules and connecting different systems in enterprise software</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>What I Want to Learn More About</h2>
+					<p>Areas I'm excited to explore deeper into:</p>
+					<ul>
+						<li class="fragment">Real-world stories of enterprise software triumphs and struggles</li>
+						<li class="fragment">Smarter security approaches and predicting threats in enterprise systems</li>
+						<li class="fragment">Ways to make large applications perform even better</li>
+						<li class="fragment">Modern ways of working with DevOps in companies</li>
+						<li class="fragment">How enterprise architecture is changing with cloud technology</li>
+					</ul>
+				</section>
+
+				<section>
+						<h2>Thinking Critically: Enterprise Software Defined</h2>
+						<p><strong>A Thought-Provoking Question:</strong> How do you make sense of the idea that enterprise software is all about "organizational needs," when organizations are really made up of individual users with different tech skills and ways of working?</p>
+						<p class="fragment"><strong>Another Question to Consider:</strong> What are the ethical considerations when enterprise software focuses more on how efficient a company is, rather than how good the user experience is or how happy employees are?</p>
 					</section>
 					<section>
-						<h2>Key Characteristics</h2>
+						<h2>Taking a Closer Look: Balancing Different Needs</h2>
 						<ul>
-							<li>Reliability: High uptime, fault tolerance, data integrity.</li>
-							<li>Scalability: Handles large user bases and data volumes.</li>
-							<li>Security: Robust authentication, authorization, data protection.</li>
+							<li><strong>A Tough Question:</strong> If reliability means almost perfect uptime, how do you manage this alongside the need to release updates often and add new features quickly in a competitive market?</li>
+							<li class="fragment"><strong>A Tricky Situation:</strong> How can enterprise software truly grow and adapt when every new connection point could make things incredibly complicated?</li>
+							<li class="fragment"><strong>A Real Dilemma:</strong> At what point does security become so strict that it hurts productivity, and how can we measure this give-and-take?</li>
 							</ul>
 						</section>
 					<section>
-						<h2>cont....</h2>
+						<h2>A Systems Thinking Question</h2>
 						<ul>			
-							<li>Maintainability: Easy to update, debug, and extend over time.</li>
-							<li>Integration: Connects with other systems (CRM, ERP, legacy systems).</li>
-							<li>Compliance: Adheres to industry regulations and standards.</li>
+							<li><strong>Dealing with Complexity:</strong> How do you design systems that are easy to maintain when the business rules have been around for decades, involve many different people, and need to change with unpredictable new rules?</li>
+							<li class="fragment"><strong>The Integration Puzzle:</strong> If enterprise software needs to connect with older systems that don't have modern ways of communicating, how do you stop the simplest connection from making your whole system worse?</li>
+							<li class="fragment"><strong>Adapting to New Rules:</strong> How should software designers plan for rules and regulations that don't even exist yet, especially with new tech like AI and the Internet of Things?</li>
 						</ul>
 					</section>
 					<section>
-						<h2>Enterprise vs. Consumer-Grade</h2>
-						<table style="width:100%; font-size:1.1em; border-collapse:collapse;">
+						<h2>Comparing Strategies: Enterprise vs. Consumer Software</h2>
+						<table style="width:100%; font-size:0.9em; border-collapse:collapse;">
 							<thead>
 								<tr>
-									<th style="border-bottom:1px solid #ccc; padding:8px;">Enterprise</th>
-									<th style="border-bottom:1px solid #ccc; padding:8px;">Consumer-Grade</th>
+									<th style="border-bottom:1px solid #ccc; padding:8px;">Key Questions</th>
+									<th style="border-bottom:1px solid #ccc; padding:8px;">In Companies (Enterprise)</th>
+									<th style="border-bottom:1px solid #ccc; padding:8px;">For Everyday Users (Consumer)</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td style="padding:8px;">Business value</td>
-									<td style="padding:8px;">User experience</td>
+									<td style="padding:8px;"><strong>Measuring Value:</strong> How do you put a number on "business value" when different people in the company want different things?</td>
+									<td style="padding:8px;">Return on investment, how much work gets done, costs of following rules</td>
+									<td style="padding:8px;">How happy users are, how much they use it, how long they stick around</td>
 								</tr>
 								<tr>
-									<td style="padding:8px;">Designed for organizations, often with many stakeholders.</td>
-									<td style="padding:8px;">Designed for individual users or small groups.</td>
+									<td style="padding:8px;"><strong>Making Decisions:</strong> Who ultimately decides which features are most important when the people using the software are different from the people buying it?</td>
+									<td style="padding:8px;">IT teams, top executives, purchasing departments</td>
+									<td style="padding:8px;">Individual users making their own choices</td>
 								</tr>
 								<tr>
-									<td style="padding:8px;">HR software</td>
-									<td style="padding:8px;">Mobile apps</td>
+									<td style="padding:8px;"><strong>The Innovation Question:</strong> Can enterprise software truly be innovative while still staying stable and reliable?</td>
+									<td style="padding:8px;">Avoiding risks, careful change management processes</td>
+									<td style="padding:8px;">Fast updates, encouraging early adoption</td>
 								</tr>
 							</tbody>
 						</table>	
@@ -102,128 +161,134 @@
 				</section>
 				<section>
 					<section>
-						<h3>Software Development Lifecycle </h3>
+						<h3>A Closer Look at the Software Development Lifecycle (SDLC)</h3>
 						<img src="sdlc.png" style="width: 400px; display: block; margin: 0 auto 2rem auto;">
+						<p><strong>A Fundamental Question:</strong> Is the step-by-step way we show SDLC helpful, or does it dangerously oversimplify the messy reality of developing software?</p>
 					</section>
 					<section>
-						<h3> What is SDLC?</h3>
-						<p class="fragment">A structured process that outlines the stages involved in developing software.</p>	
+						<h3>Thinking About the SDLC</h3>
+						<p><strong>A Core Question:</strong> If creating software is naturally a creative and unpredictable process, how can we justify using strict methods like SDLC?</p>
+						<p class="fragment"><strong>A Deeper Question:</strong> Are we using SDLC to truly make software better, or to just give the impression of control and predictability to people who don't understand how development really works?</p>	
 					</section>	
 					<section>
-						<h2>Phase Breakdown</h2>
+						<h2>Looking at Each Phase: Hidden Details</h2>
 						<ul>
-							<li class="fragment">Define project scope, goals, and requirements.</li>
-							<li class="fragment">Gather detailed requirements and analyze feasibility.</li>
-							<li class="fragment">Create system architecture and design specifications.</li>
-							<li class="fragment">Write code and build the software.</li>
-							<li class="fragment">Verify that the software meets requirements and is bug-free.</li>
-							<li class="fragment">Release the software to users or production environment.</li>
-							<li class="fragment">Ongoing support, updates, and bug fixes.</li>
+							<li class="fragment"><strong>The Requirements Puzzle:</strong> How do you gather all the "complete" requirements for a system that will definitely change the very business processes it's supposed to help?</li>
+							<li class="fragment"><strong>The Analysis Pitfall:</strong> When does trying to understand everything become "analysis paralysis," and how do you find the right balance between thorough planning and needing to start building?</li>
+							<li class="fragment"><strong>Evolving Design:</strong> If the system's overall structure needs to change during development, how do you keep initial design choices from becoming a burden later on?</li>
+							<li class="fragment"><strong>The Reality of Building:</strong> How do you keep code good and teams productive when requirements shift in the middle of development?</li>
+							<li class="fragment"><strong>The Testing Dilemma:</strong> Can you ever truly be sure that complex enterprise software "meets requirements" when those requirements are themselves just interpretations of what the business needs?</li>
+							<li class="fragment"><strong>The Deployment Hurdle:</strong> How do you handle the risk of releasing software that works perfectly in testing but fails when it's live because of unknown factors?</li>
+							<li class="fragment"><strong>Maintenance Evolution:</strong> At what point does ongoing maintenance turn into a complete rewrite, and how do you plan for that transition?</li>
 					</section>
 					<section>
-						<h2>SDLC Models</h2>
-						<p class="fragment">There are several models for implementing the SDLC, including:</p>
+						<h2>Comparing Models: What it Means for Strategy</h2>
+						<p><strong>A Critical Look:</strong> Every SDLC model makes different assumptions about uncertainty, change, and risk. What are the core philosophical differences?</p>
 						<ul>
-							<li class="fragment">Waterfall</li>
-							<li class="fragment">Agile: Iterative and incremental approach.</li>
-							<li class="fragment">Spiral: Combines iterative development with risk assessment.</li>
-							<li class="fragment">V-Model: Emphasizes verification and validation at each stage.</li>
+							<li class="fragment"><strong>Waterfall Thinking:</strong> Assumes you can know all requirements upfront and that changes are costly. But is this realistic in a fast-changing business world?</li>
+							<li class="fragment"><strong>Agile's Contradiction:</strong> Claims to embrace change but needs a lot of discipline and a shift in company culture. How do you know if your "Agile" process is truly agile?</li>
+							<li class="fragment"><strong>Spiral's Focus on Risk:</strong> Puts a lot of emphasis on checking for risks at each step. But how do you spot risks you don't even know exist?</li>
+							<li class="fragment"><strong>V-Model's Verification:</strong> Connects each development step with testing. But can testing keep up with changing requirements?</li>
 						</ul>	
 					</section>
 					<section>
 						<img src="waterfall.png" style="width: auto; display: block; margin: 0 auto 2rem auto;">
-						<p>Each phase must be completed before moving to the next</p>
+						<p><strong>A Key Question:</strong> If "each phase must be completed before moving to the next" is the main rule, how do you deal with the inevitable discovery that earlier steps were based on incorrect ideas?</p>
 					</section>
 					<section>
 						<img src="iterative.png" style="width: auto; display: block; margin: 0 auto 2rem auto;">
-						<p>Development is done in small iterations</p>
+						<p><strong>A Complex Thought:</strong> If development happens in small steps, how do you keep the overall structure of the system consistent and stop it from just becoming a bunch of unconnected features?</p>
 					</section>
 					</section>
 					<section>
-						<h2>Software Architecture & Design Patterns</h2>
-						<p>Software architecture refers to the high-level structure of a software system, including its components, their relationships, and how they interact.</p>
-						<p>Design patterns are reusable solutions to common software design problems. They are like pre-made blueprints that you can customize to solve a recurring design problem in your code.</p>
+						<h2>Thinking About Architecture: More Than Just Tech</h2>
+						<p><strong>A Fundamental Question:</strong> Is software architecture mainly about technical decisions, or is it actually a way of designing how an organization works, just put into code?</p>
+						<p class="fragment"><strong>A Look at Design Patterns:</strong> Are design patterns true solutions to common problems, or are they more like temporary fixes that point to bigger issues in our programming languages and methods?</p>
 					</section>
 					</section>
 						<section>
-							<h3>Common Software Architecture Patterns</h3>
+							<h3>Choosing Your Architectural Approach: It Depends on the Situation</h3>
+							<p><strong>A Strategic Question:</strong> How do you decide between these different architectural styles when each one has huge impacts on team structure, how you release software, and how much it costs to maintain in the long run?</p>
 							<ul>
-								<li>Monolithic Architecture</li>
-								<li>Microservices Architecture</li>
-								<li>Serverless Architecture</li>
+								<li><strong>Monolithic Choices:</strong> When does a simple, all-in-one system become too complicated?</li>
+								<li><strong>Microservices Pondering:</strong> How do you stop microservices from creating more headaches than they solve?</li>
+								<li><strong>Serverless Reality Check:</strong> Is "serverless" truly without servers, or is it just letting cloud providers handle the server management?</li>
 							</ul>
 						</section>
 					<section>
 						<img src="Monolithic architecture@2x.png" style="width: 500px; display: block; margin: 0 auto 2rem auto;">
-						<h3>Monolithic Architecture</h3>
-						<p>Monolithic architecture is a traditional software design pattern where all components of an application are combined into a single, unified codebase.</p>
+						<h3>A Deep Look at Monolithic Architecture</h3>
+						<p><strong>A Critical Question:</strong> If monolithic architecture is "old-fashioned" and supposedly out of date, why do many successful companies still pick it for new projects? What are we missing in the microservices story?</p>
+						<p class="fragment"><strong>The Complexity Puzzle:</strong> How do you know when a monolith has become too complicated, and how do you tell if breaking it apart will actually make the whole system simpler or more complex?</p>
 						</section>	
 					<section>
 						<img src="Microservice architecture@2x.png" style="width: 500px; display: block; margin: 0 auto 2rem auto;">
-						<h3>Microservices Architecture</h3>
-						<p>Microservices architecture breaks down an application into smaller, independent services that communicate over
+						<h3>Thinking About Microservices</h3>
+						<p><strong>A Fundamental Question:</strong> If microservices architecture splits applications into independent parts, how do you handle business processes that naturally need different services to work together?</p>
+						<p class="fragment"><strong>Conway's Law:</strong> Since microservices often reflect how an organization is set up, are we designing software in the best way, or just making things convenient for management?</p>
 					</section>
 					<section>
-						<h2> Common Design Patterns</h2>
+						<h2>The Philosophy Behind Design Patterns</h2>
+						<p><strong>A Big Question:</strong> Do design patterns represent timeless wisdom in software engineering, or are they more like historical reminders of how specific programming languages and methods used to be?</p>
 						<ul>
-							<li>Singleton: Ensures a class has only one instance and provides a global point of access to it.</li>
-							<li>Prototype: Creates new objects by copying an existing object, allowing for dynamic object creation.</li>
+							<li><strong>The Singleton Debate:</strong> Is the Singleton pattern a useful tool, or is it just a hidden global variable that goes against good object-oriented design?</li>
+							<li><strong>The Prototype Question:</strong> In languages where you can create objects dynamically, does the Prototype pattern really solve a problem, or does it just add unnecessary complexity?</li>
 						</ul>
 					</section>
 
 					<section>
 						<img src="singleton-1.5x.png" style="width: 500px; display: block; margin: 0 auto 2rem auto;">
-						<p> lets you ensure that a class has only one instance, while providing a global access point to this instance.</p>
+						<p><strong>A Critical Point:</strong> If Singleton makes sure only one instance exists globally, how do you handle testing, multiple users at once, and connecting different parts of the code without breaking the pattern's main idea?</p>
 					</section>
 					<section>
 						<img src="prototype-1.5x.png" style="width: 500px; display: block; margin: 0 auto 2rem auto;">
-						<p> lets you copy existing objects without making your code dependent on their classes.</p>
+						<p><strong>A Deeper Question:</strong> When you copy existing objects to make new ones, how do you manage copying nested objects versus just references, and how do you keep everything consistently linked?</p>
 					</section>
 				<section>
 					<section>
-						<h2>Version Control</h2>
+						<h2>Version Control: More Than Just a Tech Tool</h2>
+						<p><strong>A Philosophical Question:</strong> Is version control mainly a technical tool for managing code changes, or is it actually a system for keeping track of a company's decisions and history?</p>
 					<section>
-						<p class="fragment">Allows you to track changes to your code over time</p>
-						<p class="fragment">Enables you to collaborate with others on the same codebase</p>
-						<p class="fragment">You can easily revert to a previous version of your code or experiment with new features without affecting the main codebase</p>
+						<p class="fragment"><strong>The Collaboration Puzzle:</strong> How do you balance the good things about working together with the fact that too many people contributing can lead to slow decision-making and inconsistent design?</p>
+						<p class="fragment"><strong>History vs. Moving Forward:</strong> When does being able to "go back to old versions" become something that stops teams from making bold new architectural choices?</p>
+						<p class="fragment"><strong>Branching Strategies:</strong> How do you choose between different ways of organizing branches when each one implies different things about how your team works, how often you release, and how much risk you're willing to take?</p>
 					</section>
 					<section>
-						<h2>How to install Git?</h2>
+						<h2>Installing Git: Dealing with Different Setups</h2>
+						<p><strong>A Systems Thinking Question:</strong> If installing and setting up Git is different on various computers, how do you make sure everyone on the team works in the same way, no matter their setup?</p>
 						<ul>
-							<li>Download Git from the official website </li>
-							<li>Run the installer</li>
-							<li>Configure Git</li>
+							<li><strong>Tool Reliance:</strong> How do you balance the ease of graphical tools with the power and flexibility of command-line tools?</li>
+							<li><strong>Managing Settings:</strong> What are the security concerns of having global Git settings, especially in shared development environments?</li>
+							<li><strong>Version Differences:</strong> How do you handle different Git versions among team members and where you deploy your code?</li>
 						</ul>
 					</section>
 					<section>
-						Congratulations! You have successfully installed Git on your local machine. You are now ready to start using Git for your projects.
-					</section>
-					<section>
-						<h2>Software Architecture & Design Patterns</h2>
-						<p>Configuring your name and email address on your local machine is an essential step in setting up Git. </p>
+						<h2>Who Made This Code?</h2>
+						<p><strong>A Complex Question:</strong> Beyond just the technical need, what are the bigger philosophical and legal points about giving credit for code changes to specific people?</p>
 						<pre><code class="hljs javascript" data-trim data-line-numbers>
 							git config --global user.name "Your Name"
 							git config --global user.email "your-email@example.com"
 							</code></pre>
+							<p class="fragment"><strong>Thinking About Ethics:</strong> How do you handle giving credit for code in team environments where ideas come from group discussions, not just one person?</p>
 					</section>
 					<section>
-						<p>Now that we have finished setting up your username and email for Git and GitHub, let's verify that everything is configured correctly.
-
-							To do this, use the following command:</p>
+						<p><strong>The Verification Puzzle:</strong> If checking your settings is crucial, how do you make sure the checking process itself doesn't cause errors or security weaknesses?</p>
 						<pre><code class="hljs javascript" data-trim data-line-numbers>
 							git config --list
 							</code></pre>
+							<p class="fragment"><strong>Managing Settings:</strong> How do you handle Git settings across many different projects with varying needs, team structures, and security rules?</p>
 					</section>
 					<section data-auto-animate>
-						<h2 data-id="code-title">Most used Git Commands </h2>
-						<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+						<h2 data-id="code-title">Git Commands: How We Work</h2>
+						<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
 							git init
 							git add .
 							git commit -m "Initial commit"
 							git push origin master
 							git pull origin master
-						</code></pre><br>
-						<p class="fragment">But where is my code stored? </p>
+						</script></code></pre><br>
+						<p class="fragment"><strong>Looking at Our Workflow:</strong> Do these "most used" commands represent good practices, or do they reflect common shortcuts that might lead to less organized version control?</p>
+						<p class="fragment"><strong>A Critical Question:</strong> How do you find the right balance between the simplicity of basic Git workflows and the complexities of real-world teamwork in development?</p>
 					</section>
 				</section>
 
@@ -231,109 +296,114 @@
 				</section>
 				<section>
 					<section>
-						<h2>GitHub </h2>
+						<h2>GitHub: Relying on a Platform</h2>
 						<img src="https://user-images.githubusercontent.com/1221423/156894097-ff2d6566-7b6a-4488-950e-f4ebe990965a.svg" style="width: 300px; height: auto;">
-						<p>GitHub is a web-based platform that allows you to host your code, collaborate with others, and manage your projects.</p>
+						<p><strong>A Strategic Question:</strong> How do you balance the ease of GitHub's all-in-one platform with the risks of being tied to one company and relying on a single commercial entity?</p>
+						<p class="fragment"><strong>The Open Source Twist:</strong> Is it a bit odd that so much of the open-source world depends on a private platform owned by Microsoft?</p>
 					</section>
 					<section>
-						<h2>Why should I use GitHub?</h2>
-						<p>GitHub provides several benefits:</p>
+						<h2>GitHub Benefits: A Closer Look</h2>
+						<p><strong>Assessing Value:</strong> How do you measure the real value of GitHub's features beyond what their marketing says?</p>
 						<ul>
-							<li>Code hosting</li>
-							<li>Collaboration</li>
-							<li>Project management</li>
-							<li>Creating your own website using GitHub Pages, a static site hosting service.</li>
+							<li><strong>Code Hosting:</strong> What are the hidden costs and risks of putting all your code in one place on a single platform?</li>
+							<li><strong>Collaboration:</strong> How do GitHub's teamwork features influence and potentially limit how teams work together?</li>
+							<li><strong>Project Management:</strong> Can GitHub's project tools truly replace specialized tools, or do they give a false impression of covering everything?</li>
+							<li><strong>GitHub Pages:</strong> What are the implications of connecting website hosting directly to where your source code is stored?</li>
 						</ul>
 					</section>
 					<section>
-						<h2>How do I get started with GitHub?</h2>
-						<p>Getting started with GitHub is easy:</p>
+						<h2>GitHub Workflow: The Process vs. The Platform</h2>
+						<p><strong>A Fundamental Question:</strong> Are you learning ways of working specific to GitHub, or are you learning universal software development principles?</p>
 						<ol>
-							<li>Create a GitHub account</li>
-							<li>Create a repository</li>
-							<li>Push your code to GitHub</li>
-							<li>Collaborate with others</li>
+							<li><strong>Setting Up Your Account:</strong> How do you manage your professional online presence across different platforms and projects?</li>
+							<li><strong>Managing Repositories:</strong> What are the long-term effects of how you organize your code and name your projects?</li>
+							<li><strong>Integrating Code:</strong> How do you keep code quality and consistency across scattered teams using GitHub's ways of working?</li>
+							<li><strong>Teamwork Styles:</strong> How do GitHub's collaboration features affect how teams interact and who owns what code?</li>
 						</ol>
 					</section>
 					<section>
-						<h2>What are some common GitHub features?</h2>
-						<p>Some common GitHub features include:</p>
+						<h2>GitHub Features: Dealing with Too Many Tools</h2>
+						<p><strong>The Integration Challenge:</strong> How do you stop GitHub's many features from leading to too many tools and breaking up your workflow?</p>
 						<ul>
-							<li>Issues - to track bugs and feature requests</li>
-							<li>Pull requests - to propose changes to a repository</li>
-							<li>Projects - to organize and prioritize work</li>
-							<li>Actions - to automate workflows</li>
+							<li><strong>Issues vs. Requirements:</strong> How do you make sure GitHub issues capture what users actually need, rather than just technical tasks?</li>
+							<li><strong>Pull Request Culture:</strong> What are the social and technical implications of developing software mainly through pull requests?</li>
+							<li><strong>Project Management:</strong> How do you fit GitHub Projects into your company's existing project management processes?</li>
+							<li><strong>GitHub Actions:</strong> When does automating workflows become so complicated that it's harder to maintain than doing things manually?</li>
 						</ul>
 					</section>
 				</section>
 				<section>
-					<h2>GitHub Cli </h2>
-					<p>GitHub CLI brings GitHub to your terminal. It reduces context switching, helps you focus, and enables you to more easily script and create your own workflows.</p>	
+					<h2>GitHub CLI: Thinking About Command Line Tools</h2>
+					<p><strong>An Interface Design Question:</strong> Does GitHub CLI truly make you more productive, or is it just another layer that hides what's really happening with Git?</p>
+					<p class="fragment"><strong>Looking at Dependencies:</strong> How do you balance the efficiency of command-line tools with the risk of creating development processes that rely on specific companies?</p>	
 				</section>
 				<section>
-					<h2>How to install GitHub CLI</h2>
+					<h2>Installation Dependencies: The Messy Dev Environment</h2>
+					<p><strong>A Systems Question:</strong> How do you handle the increasing complexity of all the different development tools and their connections across various team members and deployment setups?</p>
 					<ol>
-						<li>Download GitHub CLI from the official website</li>
-						<li>Run the installer</li>
-						<li>Authenticate with GitHub</li>
+						<li><strong>Too Many Tools:</strong> At what point does adding more development tools actually make you less productive instead of more?</li>
+						<li><strong>Reliable Installation:</strong> How do you make sure tools behave consistently across different operating systems and settings?</li>
+						<li><strong>Authentication Security:</strong> What are the security concerns when command-line tools manage your logins across many different services?</li>
 					</ol>
 				</section>
 				<section>
-					<h2>How to authenticate with GitHub CLI</h2>
-					<p>Authenticating with GitHub CLI allows you to interact with GitHub from your terminal. To authenticate with GitHub CLI, use the following command:</p>
+					<h2>Authentication: Balancing Security and Convenience</h2>
+					<p><strong>A Security Trade-off Question:</strong> How do you balance the ease of automatic logins with the security risks of storing passwords and tokens?</p>
 					<pre><code class="hljs javascript" data-trim data-line-numbers>
 						gh auth login
 						</code></pre>
+						<p class="fragment"><strong>Trust Boundaries:</strong> When you log in with GitHub CLI, how much access are you actually giving, and how do you check and limit this access?</p>
 				</section>
 				<section data-auto-animate>
-					<h2 data-id="code-title">Top gh cli Commands</h2>
+					<h2 data-id="code-title">CLI Commands: Layers of Abstraction</h2>
 					
 					<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
-						gh auth login: Authenticates you to GitHub.
+						gh auth login: How does this differ from Git's own login process?
 
-							gh repo create <name>: Creates a new repository.
+							gh repo create <name>: What specific GitHub assumptions does this command make?
 
-								gh issue create <title>: Creates a new issue.
+								gh issue create <title>: How does this fit into your existing project management?
 
-									gh pr create: Creates a pull request.	
+									gh pr create: What review and approval steps does this skip or enforce?
 
-											gh pr checkout <number>: Checks out a pull request.
+											gh pr checkout <number>: How does this affect your local Git working area and branches?
 
-												gh pr merge: Merges a pull request.		
+												gh pr merge: What are the consequences of making merge decisions directly from the command line?
 					</script></code></pre>
+					<p class="fragment"><strong>A Big Question:</strong> Are these commands genuinely making development faster, or are they creating workflows unique to GitHub that make your code less flexible for other platforms?</p>
 				</section>
 
 				<section>
-					<h2>Open Source</h2>
-					<p>Open source software is software that is freely available to use, modify, and distribute.</p>
-					<p>And anyone can contribute to it!!</p>
+					<h2>Open Source: Ideals vs. Reality</h2>
+					<p><strong>A Philosophical Question:</strong> Is open source mainly a technical way of doing things, an economic approach, or a movement based on certain beliefs, and how do these different ideas sometimes clash?</p>
+					<p class="fragment"><strong>The Sustainability Question:</strong> How do you reconcile the hopeful idea that "anyone can contribute" with the reality that most open-source projects need a lot of coordination, good documentation, and ongoing maintenance?</p>
 				</section>
 				<section>
 					<section>
-						<h2>Why should I contribute to Open Source?</h2>
-						<p class="fragment"> apart from getting a cool badge like this 
+						<h2>Contributing to Open Source: Why Do People Do It?</h2>
+						<p><strong>A Critical Question:</strong> Beyond getting a "cool badge," what are the real reasons people contribute to open source and what stops them, and how do these vary for different groups of people?</p>
 						</p>
 						<p class="fragment">
 						<img src="all-in-africa-open-source-contributor.png" style="width: 400px; height: auto;">
 					</p>
 					</section>
 					<section>
-						<p>Contributing to open source has several benefits:</p>
+						<p><strong>Assessing the Benefits:</strong> How do you measure the actual advantages of contributing to open source compared to the time and opportunities you might miss out on?</p>
 						<ul>
-							<li>Learn new skills</li>
-							<li>Build your portfolio</li>
-							<li>Collaborate with others</li>
-							<li>Give back to the community</li>
+							<li><strong>Skill Growth:</strong> What skills are you actually gaining, and how well do they apply to working on commercial projects?</li>
+							<li><strong>Building Your Portfolio:</strong> How do potential employers look at open-source contributions, and what biases might affect their evaluation?</li>
+							<li><strong>Collaboration Myths:</strong> Is open-source collaboration truly different from working in a commercial team, or is that a false distinction?</li>
+							<li><strong>Community Impact:</strong> How do you measure if your contributions genuinely "give back to the community" versus mostly serving your own interests?</li>
 						</ul>
 					</section>	
 					<section>
-						<h2>How do I get started with Open Source?</h2>
-						<p>Getting started with open source is easy:</p>
+						<h2>Open Source Participation: Things That Get in the Way</h2>
+						<p><strong>A Question of Fairness:</strong> What systemic obstacles prevent diverse people from participating in open source, and how do current contribution models continue to create inequalities in tech?</p>
 						<ol>
-							<li>Find a project</li>
-							<li>Read the contribution guidelines</li>
-							<li>Make a contribution</li>
-							<li>Submit a pull request</li>
+							<li><strong>Choosing a Project:</strong> How do you decide if a project is worth contributing to versus starting something new yourself?</li>
+							<li><strong>Contribution Rules:</strong> How do you balance keeping a project consistent with making it easy for new people to contribute?</li>
+							<li><strong>Quality Standards:</strong> How do you maintain good code quality while encouraging contributions from developers with different skill levels?</li>
+							<li><strong>Review Processes:</strong> How do you make sure that reviews of code submissions are helpful and encouraging, rather than acting as barriers?</li>
 						</ol>
 					</section>
 					
@@ -343,8 +413,9 @@
 
 
 				<section style="text-align: left;">
-					<h2>Lets get practical</h2>
-					<p>Now that you have learned the basics of version control, Git, and GitHub, it's time to put your knowledge into practice.</p>
+					<h2>From Ideas to Real-World Action</h2>
+					<p><strong>The Final Challenge:</strong> Now that we've thought critically about these ideas, how do you use this deeper understanding to make better decisions in real-world software development?</p>
+					<p class="fragment"><strong>A Synthesis Question:</strong> How do you balance ideal best practices with practical limitations, team dynamics, and what the business really needs?</p>
 
 				</section>
 
