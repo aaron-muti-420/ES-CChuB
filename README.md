@@ -1,8 +1,8 @@
-# 🏢 Enterprise Open Source Project - Zunda Technology Park 
+# 🏢 Enterprise Open Source Project - Zunda Technology Park 🚀
 
 Welcome to our open-source initiative to build **enterprise-grade software** with the community — by developers, for developers and teams.
 
-🚀 **Our mission** is to build practical, modular tools that address common challenges faced by small to mid-sized businesses and public sector teams.
+ **Our mission** is to build practical, modular tools that address common challenges faced by small to mid-sized businesses and public sector teams.
 
 ---
 
