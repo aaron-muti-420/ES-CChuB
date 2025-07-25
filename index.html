@@ -29,319 +29,254 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h3> Foundations of Enterprise Software Development</h3>
+					<h3> Enterprise Software Development Session-2</h3>
 					<p>
 						<small>Presented by <a href="http://aaronmuti.com"> Aaron Muti</a></small>
 					</p>
 				</section>
+
+				<!-- Example of nested vertical slides -->
+				 <section style="background-color:pink;">
+						<h2 class="fragment" > Recommendations</h2>
+						<p class="fragment" style="color: black">Done By Edna Alexandre</p>
+						<ul class="fragment">
+							<li>Explain Complex concepts  using pratical or real world examples </li>
+							<li>Use images or other types of illustrations to clearly explain a concept </li>
+							<li>Use simple words</li>
+						</ul>
+				</section>
+					<section>
+						<h2>What is Enterprise Software?</h2>
+						<p class="fragment">Software designed to meet the needs of an organization rather than individual users.</p>
+					</section>
+					<section>
+						<h3>What is Backend Development?</h3>
+						<ul>
+							<li class="fragment">Handles data, logic, authentication, and APIs</li>
+							<li class="fragment">Works behind the scenes of websites and apps</li>
+							</ul>
+						</section>
+					<section>
+						<h3>API Development</h3>
+						<p class="fragment">APIs (Application Programming Interfaces) allow different software systems to communicate with each other.</p>
+						<p class="fragment">They define how requests and responses should be structured.</p>
+					</section>
+					<section>
+						<h3>Types of APIs</h3>
+						<ul>
+							<li class="fragment">REST</li>
+							<li class="fragment">GraphQL</li>	
+						<p class="fragment">REST (Representational State Transfer)</p>
+						<ul>
+							<li class="fragment">Uses standard HTTP methods (GET, POST, PUT, DELETE)</li>
+							<li class="fragment">Resources are identified by URLs</li>
+							<li class="fragment">Stateless communication</li>
+							<li class="fragment">Data is typically returned in JSON format</li>
+						</ul>
+					</section>
+					<section>
+						<h3>GraphQL</h3>
+						<ul>
+							<li class="fragment">Allows clients to request specific data</li>
+							<li class="fragment">Single endpoint for all requests</li>
+							<li class="fragment">Supports real-time updates with subscriptions</li>
+							<li class="fragment">Data is returned in a flexible JSON format</li>
+						</ul>
+					</section>
+					<section>
+						<img src="apivg.jpeg" style="width: 800px; height: auto;">
+					</section>
+					<section>
+						<img src="diff.png" style="width: 800px; height: auto;">
+				</section>
+				</section>
+				<section>
+					<section>
+						<h3>Authentication vs Authorization</h3>
+						<ul>
+							<li class="fragment">Authentication: Who are you? (Login)</li>
+							<li class="fragment">Authorization: What can you do? (Permissions)</li>
+						</ul>
+						<p class="fragment">Techniques</p>
+						<ul>
+							<li class="fragment">JWT (JSON Web Tokens)</li>
+							<li class="fragment">OAuth 2.0</li>
+							<li class="fragment">API Keys</li>
+						</ul>	
+					</section>
+					<section>
+						<h3>Database Design (SQL vs NoSQL)</h3>
+						<p class="fragment">Structured Query Language (SQL) is a programming language that allows both technical and non-technically-minded users to query, manipulate, and change data in a relational database.</p>	
+					</section>	
+				<section data-auto-animate>
+  <h2 data-id="code-title">Example SQL Statements</h2>
+
+  <pre data-id="code-animation">
+    <code class="hljs sql" data-trim data-line-numbers="|2|4|6-8|10">
+<script type="text/template">
+-- Create a table
+CREATE TABLE users (
+  id INT PRIMARY KEY,
+  name VARCHAR(100),
+  email VARCHAR(100)
+);
+
+-- Insert a new record
+INSERT INTO users (id, name, email)
+VALUES (1, 'John Doe', 'john@example.com');
+
+-- Query data
+SELECT * FROM users;
+</script>
+    </code>
+  </pre>
+</section>
+
+					<section>
+						<h2>Frontend Development for Enterprise Apps</h2>
+						<p>Deals with the user interface and user experience of a web application.</p>
+						<p>Visual elements that users interact with, such as buttons, forms, and navigation menus.</p>		
+					</section>
+					<section>
+			<section>
+  					<h2>Popular Web Frameworks</h2>
+  						<ul style="list-style: none; padding: 0;">
+    						<li>
+     							 <img src="https://cdn.worldvectorlogo.com/logos/django-community.svg" alt="Django Logo" height="60">
+    									 
+    						</li>
+   							 <li>
+    							  <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" height="60">
+      									
+   							 </li>
+    						<li>
+      							<img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" alt="Laravel Logo" height="60">
+     								
+   							 </li>
+								<li>
+								<img src="https://vuejs.org/images/logo.png" alt="Vue.js Logo" height="60">
+								
+								</li>
+							</ul>
+							</section>
+
+					</section>
+					<section>
+						<h3>UI/UX considerations for enterprise applications</h3>
+						<ul>
+							<li>User-friendly interfaces</li>
+							<li>Responsive design for various devices</li>
+							<li>Accessibility for all users</li>
+							<li>Consistent branding and design</li>
+						</ul>
+					</section>
+
+						<section>
+							<h2>Building Scalable and Secure Systems</h2>
+							<p>Scalability: Ability to handle increased load by adding resources.</p>
+							<p>Security: Protecting data and systems from unauthorized access and attacks.</p>	
+						</section>
+						<section>
+							<h3>Scalability Techniques</h3>
+							<ul>
+								<li class="fragment">Load balancing</li>
+								<li class="fragment">Horizontal scaling (adding more servers)</li>
+								<li class="fragment">Vertical scaling (upgrading existing servers)</li>
+								<li class="fragment">Caching strategies</li>
+							</ul>	
+					    </section>
+						
+				
+				<section>
+					<h2>Security Best Practices</h2>
+					<ul>
+						<li class="fragment">Data encryption (at rest and in transit)</li>
+						<li class="fragment">Regular security audits</li>
+						<li class="fragment">Input validation to prevent SQL injection and XSS attacks</li>
+						<li class="fragment">Implementing firewalls and intrusion detection systems</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Testing and Quality Assurance</h2>
+					<p>Ensures software meets requirements and is free of defects.</p>
+					<p>Types of testing include:</p>
+					<ul>
+						<li class="fragment">Unit testing</li>
+						<li class="fragment">Integration testing</li>
+						<li class="fragment">End-to-end testing</li>
+						<li class="fragment">Performance testing</li>
+					</ul>
+				</section>
+				<section>
+					<h2>DevOps and Continuous Integration/Continuous Deployment (CI/CD)</h2>
+					<p>DevOps: Combines development and operations to improve collaboration and efficiency.</p>
+					<p>CI/CD: Automates the process of integrating code changes and deploying applications.</p>
+					<p>Benefits include faster development cycles, reduced errors, and improved software quality.</p>
+				</section>
+				<section>
+					<h2>Conclusion</h2>
+					<p>Enterprise software development involves creating robust, scalable, and secure applications for organizations.</p>
+					<p>Key areas include backend development, API design, authentication, database design, frontend development, scalability, security, testing, and DevOps practices.</p>
+					<p>By mastering these concepts, developers can build software that meets the complex needs of enterprises.</p>
+				</section>
+				<section>
+					<h2>Thank You!</h2>
+					</section>	
+			<section>
+					<h3> Points of Discussion</h3>
+					<p>
+						<small>Presented by <a href="https://github.com/Gxsr-K"> Jian Cloete</a></small>
+					</p>
+				</section>
 				<section>
 					<h6>Who am i?</h6>
-						<a href="https://aaronmuti.com">
-						<img src="https://aaronmuti.com/images/bg_1.png" alt="reveal.js logo" style="height: 400px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+						<a href="https://github.com/Gxsr-K">
+						<img src="keni.jpg" alt="reveal.js logo" style="height: 400px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
 					</a>
-					<p class="fragment">A Pythonista with expertise in data and quality control.</p>
+					<p class="fragment">A second year Computer Science student specializing in software development.</p>
 				</section>
-				<section><h2>What do i really DO &#x1F914;?<html lang="en"></h2>	
-					<p> I currently work as a QA Engineer at Capricorn Group     </p> 
-					<p>And</p>
-					<p class="fragment">I'm passionate about knowledge sharing and mentor aspiring developers at Zunda Technology Park 🚀 </p>
+				<section><h2>What am i passionate about &#x1F914;?<html lang="en"></h2>	
+				
+					<p class="fragment">I'm passionate about gaining knowledge and improving as much as i can in all aspects of life </p>
 					
 			</section>
 			<section>
 				<h2>Im0 lang</h2>
-				<p style="font-size: 100px;">🚀 👨🏿‍💻  🕵🏾‍♂️ 🐍</p>
+				<p style="font-size: 100px;">🍵</p>
 				</section>
 
 				<!-- Example of nested vertical slides -->
 					<section>
-						<h2>What is Enterprise Software?</h2>
-						<p>Software designed to meet the needs of an organization rather than individual users.</p>
-						<p>Focus on business processes, data management, and operational efficiency.</p>
-					</section>
-					<section>
-						<h2>Key Characteristics</h2>
-						<ul>
-							<li>Reliability: High uptime, fault tolerance, data integrity.</li>
-							<li>Scalability: Handles large user bases and data volumes.</li>
-							<li>Security: Robust authentication, authorization, data protection.</li>
-							</ul>
-						</section>
-					<section>
-						<h2>cont....</h2>
-						<ul>			
-							<li>Maintainability: Easy to update, debug, and extend over time.</li>
-							<li>Integration: Connects with other systems (CRM, ERP, legacy systems).</li>
-							<li>Compliance: Adheres to industry regulations and standards.</li>
-						</ul>
-					</section>
-					<section>
-						<h2>Enterprise vs. Consumer-Grade</h2>
-						<table style="width:100%; font-size:1.1em; border-collapse:collapse;">
-							<thead>
-								<tr>
-									<th style="border-bottom:1px solid #ccc; padding:8px;">Enterprise</th>
-									<th style="border-bottom:1px solid #ccc; padding:8px;">Consumer-Grade</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td style="padding:8px;">Business value</td>
-									<td style="padding:8px;">User experience</td>
-								</tr>
-								<tr>
-									<td style="padding:8px;">Designed for organizations, often with many stakeholders.</td>
-									<td style="padding:8px;">Designed for individual users or small groups.</td>
-								</tr>
-								<tr>
-									<td style="padding:8px;">HR software</td>
-									<td style="padding:8px;">Mobile apps</td>
-								</tr>
-							</tbody>
-						</table>	
-				</section>
-				</section>
-				<section>
-					<section>
-						<h3>Software Development Lifecycle </h3>
-						<img src="sdlc.png" style="width: 400px; display: block; margin: 0 auto 2rem auto;">
-					</section>
-					<section>
-						<h3> What is SDLC?</h3>
-						<p class="fragment">A structured process that outlines the stages involved in developing software.</p>	
-					</section>	
-					<section>
-						<h2>Phase Breakdown</h2>
-						<ul>
-							<li class="fragment">Define project scope, goals, and requirements.</li>
-							<li class="fragment">Gather detailed requirements and analyze feasibility.</li>
-							<li class="fragment">Create system architecture and design specifications.</li>
-							<li class="fragment">Write code and build the software.</li>
-							<li class="fragment">Verify that the software meets requirements and is bug-free.</li>
-							<li class="fragment">Release the software to users or production environment.</li>
-							<li class="fragment">Ongoing support, updates, and bug fixes.</li>
-					</section>
-					<section>
-						<h2>SDLC Models</h2>
-						<p class="fragment">There are several models for implementing the SDLC, including:</p>
-						<ul>
-							<li class="fragment">Waterfall</li>
-							<li class="fragment">Agile: Iterative and incremental approach.</li>
-							<li class="fragment">Spiral: Combines iterative development with risk assessment.</li>
-							<li class="fragment">V-Model: Emphasizes verification and validation at each stage.</li>
-						</ul>	
-					</section>
-					<section>
-						<img src="waterfall.png" style="width: auto; display: block; margin: 0 auto 2rem auto;">
-						<p>Each phase must be completed before moving to the next</p>
-					</section>
-					<section>
-						<img src="iterative.png" style="width: auto; display: block; margin: 0 auto 2rem auto;">
-						<p>Development is done in small iterations</p>
-					</section>
-					</section>
-					<section>
-						<h2>Software Architecture & Design Patterns</h2>
-						<p>Software architecture refers to the high-level structure of a software system, including its components, their relationships, and how they interact.</p>
-						<p>Design patterns are reusable solutions to common software design problems. They are like pre-made blueprints that you can customize to solve a recurring design problem in your code.</p>
-					</section>
-					</section>
-						<section>
-							<h3>Common Software Architecture Patterns</h3>
+						<h2>Key take aways from part 1</h2>
 							<ul>
-								<li>Monolithic Architecture</li>
-								<li>Microservices Architecture</li>
-								<li>Serverless Architecture</li>
+							<li>Characteristics of Enterprise Software</li>
+							<li>Software development life cycle (SDLC).</li>
+							<li>Common software architecture patterns.</li>
+							<li>Design patterns.</li>
+							</ul>
+					</section>
+					<section>
+						<h2>Points that require more focus</h2>
+						<ul>
+							<li>Software architecture and where can we learn more about these topics as well as how to implement them.</li>
+							<li>The same with design patterns.</li>
 							</ul>
 						</section>
 					<section>
-						<img src="Monolithic architecture@2x.png" style="width: 500px; display: block; margin: 0 auto 2rem auto;">
-						<h3>Monolithic Architecture</h3>
-						<p>Monolithic architecture is a traditional software design pattern where all components of an application are combined into a single, unified codebase.</p>
-						</section>	
-					<section>
-						<img src="Microservice architecture@2x.png" style="width: 500px; display: block; margin: 0 auto 2rem auto;">
-						<h3>Microservices Architecture</h3>
-						<p>Microservices architecture breaks down an application into smaller, independent services that communicate over
-					</section>
-					<section>
-						<h2> Common Design Patterns</h2>
-						<ul>
-							<li>Singleton: Ensures a class has only one instance and provides a global point of access to it.</li>
-							<li>Prototype: Creates new objects by copying an existing object, allowing for dynamic object creation.</li>
-						</ul>
-					</section>
-
-					<section>
-						<img src="singleton-1.5x.png" style="width: 500px; display: block; margin: 0 auto 2rem auto;">
-						<p> lets you ensure that a class has only one instance, while providing a global access point to this instance.</p>
-					</section>
-					<section>
-						<img src="prototype-1.5x.png" style="width: 500px; display: block; margin: 0 auto 2rem auto;">
-						<p> lets you copy existing objects without making your code dependent on their classes.</p>
-					</section>
-				<section>
-					<section>
-						<h2>Version Control</h2>
-					<section>
-						<p class="fragment">Allows you to track changes to your code over time</p>
-						<p class="fragment">Enables you to collaborate with others on the same codebase</p>
-						<p class="fragment">You can easily revert to a previous version of your code or experiment with new features without affecting the main codebase</p>
-					</section>
-					<section>
-						<h2>How to install Git?</h2>
-						<ul>
-							<li>Download Git from the official website </li>
-							<li>Run the installer</li>
-							<li>Configure Git</li>
-						</ul>
-					</section>
-					<section>
-						Congratulations! You have successfully installed Git on your local machine. You are now ready to start using Git for your projects.
-					</section>
-					<section>
-						<h2>Software Architecture & Design Patterns</h2>
-						<p>Configuring your name and email address on your local machine is an essential step in setting up Git. </p>
-						<pre><code class="hljs javascript" data-trim data-line-numbers>
-							git config --global user.name "Your Name"
-							git config --global user.email "your-email@example.com"
-							</code></pre>
-					</section>
-					<section>
-						<p>Now that we have finished setting up your username and email for Git and GitHub, let's verify that everything is configured correctly.
-
-							To do this, use the following command:</p>
-						<pre><code class="hljs javascript" data-trim data-line-numbers>
-							git config --list
-							</code></pre>
-					</section>
-					<section data-auto-animate>
-						<h2 data-id="code-title">Most used Git Commands </h2>
-						<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
-							git init
-							git add .
-							git commit -m "Initial commit"
-							git push origin master
-							git pull origin master
-						</code></pre><br>
-						<p class="fragment">But where is my code stored? </p>
-					</section>
-				</section>
-
-				</section>
-				</section>
-				<section>
-					<section>
-						<h2>GitHub </h2>
-						<img src="https://user-images.githubusercontent.com/1221423/156894097-ff2d6566-7b6a-4488-950e-f4ebe990965a.svg" style="width: 300px; height: auto;">
-						<p>GitHub is a web-based platform that allows you to host your code, collaborate with others, and manage your projects.</p>
-					</section>
-					<section>
-						<h2>Why should I use GitHub?</h2>
-						<p>GitHub provides several benefits:</p>
-						<ul>
-							<li>Code hosting</li>
-							<li>Collaboration</li>
-							<li>Project management</li>
-							<li>Creating your own website using GitHub Pages, a static site hosting service.</li>
-						</ul>
-					</section>
-					<section>
-						<h2>How do I get started with GitHub?</h2>
-						<p>Getting started with GitHub is easy:</p>
-						<ol>
-							<li>Create a GitHub account</li>
-							<li>Create a repository</li>
-							<li>Push your code to GitHub</li>
-							<li>Collaborate with others</li>
-						</ol>
-					</section>
-					<section>
-						<h2>What are some common GitHub features?</h2>
-						<p>Some common GitHub features include:</p>
-						<ul>
-							<li>Issues - to track bugs and feature requests</li>
-							<li>Pull requests - to propose changes to a repository</li>
-							<li>Projects - to organize and prioritize work</li>
-							<li>Actions - to automate workflows</li>
+						<h2>What i would like to hear more of</h2>
+						<ul>			
+							<li>In todays developer environment what is most important to focus on whether it is a hard skill such as coding or more of soft skills?</li>
+							<li>On the topic of coding what should we prioritize learning and improving?</li>
+							<li>When it comes to all the resources out there which ones would you recommend to young up and coming developers?</li>
 						</ul>
 					</section>
 				</section>
 				<section>
-					<h2>GitHub Cli </h2>
-					<p>GitHub CLI brings GitHub to your terminal. It reduces context switching, helps you focus, and enables you to more easily script and create your own workflows.</p>	
-				</section>
-				<section>
-					<h2>How to install GitHub CLI</h2>
-					<ol>
-						<li>Download GitHub CLI from the official website</li>
-						<li>Run the installer</li>
-						<li>Authenticate with GitHub</li>
-					</ol>
-				</section>
-				<section>
-					<h2>How to authenticate with GitHub CLI</h2>
-					<p>Authenticating with GitHub CLI allows you to interact with GitHub from your terminal. To authenticate with GitHub CLI, use the following command:</p>
-					<pre><code class="hljs javascript" data-trim data-line-numbers>
-						gh auth login
-						</code></pre>
-				</section>
-				<section data-auto-animate>
-					<h2 data-id="code-title">Top gh cli Commands</h2>
 					
-					<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
-						gh auth login: Authenticates you to GitHub.
-
-							gh repo create <name>: Creates a new repository.
-
-								gh issue create <title>: Creates a new issue.
-
-									gh pr create: Creates a pull request.	
-
-											gh pr checkout <number>: Checks out a pull request.
-
-												gh pr merge: Merges a pull request.		
-					</script></code></pre>
+						<h3>Thank you!</h3>
 				</section>
 
-				<section>
-					<h2>Open Source</h2>
-					<p>Open source software is software that is freely available to use, modify, and distribute.</p>
-					<p>And anyone can contribute to it!!</p>
-				</section>
-				<section>
-					<section>
-						<h2>Why should I contribute to Open Source?</h2>
-						<p class="fragment"> apart from getting a cool badge like this 
-						</p>
-						<p class="fragment">
-						<img src="all-in-africa-open-source-contributor.png" style="width: 400px; height: auto;">
-					</p>
-					</section>
-					<section>
-						<p>Contributing to open source has several benefits:</p>
-						<ul>
-							<li>Learn new skills</li>
-							<li>Build your portfolio</li>
-							<li>Collaborate with others</li>
-							<li>Give back to the community</li>
-						</ul>
-					</section>	
-					<section>
-						<h2>How do I get started with Open Source?</h2>
-						<p>Getting started with open source is easy:</p>
-						<ol>
-							<li>Find a project</li>
-							<li>Read the contribution guidelines</li>
-							<li>Make a contribution</li>
-							<li>Submit a pull request</li>
-						</ol>
-					</section>
-					
-				</section>
-
-				</section>
-
-
+ feature/Tk-slide-update
 				<section style="text-align: left;">
 					<h2>Lets get practical</h2>
 					<p>Now that you have learned the basics of version control, Git, and GitHub, it's time to put your knowledge into practice.</p>
@@ -392,6 +327,7 @@
 					<h2>Thank you!</h2>
 					<p>For more information, visit <a href="https://aaronmuti.com">aaronmuti.com</a></p>
 				</section>	
+
 
 			</div>
 
