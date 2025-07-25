@@ -1,25 +1,38 @@
-# 🚀 Zunda Technology Park - Enterprise Software Foundations Presentation
+# 🏢 Enterprise Open Source Project - Zunda Technology Park 
 
-Welcome to the **Zunda Technology Park** presentation on **Foundations of Enterprise Software Development**. This is an interactive slide deck built using [Reveal.js](https://revealjs.com), covering everything from software architecture, SDLC, version control with Git, and contributing to open source!
+Welcome to our open-source initiative to build **enterprise-grade software** with the community — by developers, for developers and teams.
 
-## 🎯 Overview
+🚀 **Our mission** is to build practical, modular tools that address common challenges faced by small to mid-sized businesses and public sector teams.
 
-This presentation is intended for aspiring developers and tech enthusiasts looking to understand:
+---
 
-- What is enterprise software?
-- Characteristics of large-scale applications
-- Software development life cycle (SDLC)
-- Software architecture & design patterns
-- Version control with Git & GitHub
-- GitHub CLI
-- Getting started with open source
+## 💡 Get Involved
 
-## 🛠 Built With
+We’re still in the planning phase and would love your input!
 
-- [Reveal.js](https://revealjs.com/) — HTML-based presentation framework
-- HTML/CSS
-- Monokai theme for syntax highlighting
+Join the [GitHub Discussions](https://github.com/<your-username>/<repo-name>/discussions) and help us:
+- Choose the type of software to build (e.g., CRM, HRMS, ERP, etc.)
+- Vote on tech stacks and features
+- Collaborate on design and development
 
-## What to do Next?
-- Make a Contribution to the slides 
+---
 
+## 🎯 Project Goals
+
+- ✅ Community-led decision-making
+- 🧱 Modular and scalable architecture
+- 🔐 Secure and production-ready code
+- 🧰 Built with open standards & modern frameworks
+
+---
+
+## 📌 Technologies (TBD by the community)
+
+We'll select the tech stack based on community discussions. Possibilities include:
+
+- **Backend:** Django / Laravel / FastAPI
+- **Frontend:** React / Vue / Angular
+- **Database:** PostgreSQL / MySQL / SQLite
+- **CI/CD:** GitHub Actions
+
+---
