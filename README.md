@@ -10,7 +10,7 @@ Welcome to our open-source initiative to build **enterprise-grade software** wit
 
 We’re still in the planning phase and would love your input!
 
-Join the [GitHub Discussions](https://github.com/<your-username>/<repo-name>/discussions) and help us:
+Join the [GitHub Discussions](https://github.com/aaron-muti-420/Enterprise-Software-Project-CcHUB-Namibia-/discussions) and help us:
 - Choose the type of software to build (e.g., CRM, HRMS, ERP, etc.)
 - Vote on tech stacks and features
 - Collaborate on design and development
